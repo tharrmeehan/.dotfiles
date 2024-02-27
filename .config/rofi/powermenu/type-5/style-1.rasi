@@ -16,9 +16,9 @@ configuration {
 
 /*****----- Global Properties -----*****/
 * {
-    font:                        "Fira Code Retina 10";
+    font:                        "SF Pro Rounded 10";
     background:                  #000000;
-    background-alt:              @urgent-background;
+    background-alt:              #000000;
     foreground:                  #FFFFFF;
     selected:                    @selected-normal-background;
     active:                      @selected-active-background;
@@ -77,7 +77,7 @@ dummy {
 textbox-prompt-colon {
     enabled:                     true;
     expand:                      false;
-    str:                         " System";
+    str:                         "   System";
     padding:                     12px;
     border-radius:               12px;
     background-color:            @urgent;
