@@ -72,3 +72,8 @@ export PATH=$PATH:/home/tk/.spicetify
 
 # alias
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias ls='eza --icons'
+alias l='ls -l --icons'
+alias la='ls -a --icons'
+alias lla='ls -la --icons'
+alias lt='ls --tree --icons'
