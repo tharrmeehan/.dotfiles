@@ -33,7 +33,7 @@ done
 # Check the flag before executing further commands
 if [ "$ln_success" = true ]; then
     # execute pywal
-    wal -i "$wallpaper_path"
+    wal -i "$wallpaper_path" --cols16
 
     # execute pywal skipping tty and terminal changes
     #wal -i "$wallpaper_path" -s -t &

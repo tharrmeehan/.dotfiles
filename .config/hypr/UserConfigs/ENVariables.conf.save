@@ -12,10 +12,7 @@ env = XDG_SESSION_TYPE,wayland
 
 env = WLR_DRM_DEVICES,/dev/dri/card1
 
-env = HYPRCURSOR_THEME,HyprBibata
-env = HYPRCURSOR_SIZE,24
-env = XCURSOR_THEME,Bibata-Modern-Classic
-env = XCURSOR_SIZE,24
+
 
 # vulkan
 env = WLR_RENDERER,vulkan
